@@ -1,0 +1,180 @@
+@import "../../styles/variables.scss";
+.selectedNFT-wrapper {
+    background-color: $dead-black;
+    position: relative;
+    padding-bottom: 10rem;
+  
+    .search-wrapper {
+        padding-top: 32px;
+        padding-bottom: 32px;
+        max-width: 687px;
+        margin: 0 auto;
+        background-color: transparent;
+    
+        input {
+          background-color: transparent;
+        }
+    }
+
+    Button {
+        position: absolute;
+        padding: 20px;
+        margin-top: 180px;
+        margin-left: 42.5%;
+        z-index: 1000;
+    }
+
+    .topBanner {
+        height: 450px;
+        position: absolute;
+    }
+  
+    .heading {
+      padding-top: 35px;
+      padding-bottom: 25px;
+      text-align: center;
+    }
+
+    .test {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+  
+    .projects-wrapper {
+      position: relative;
+      margin-top: 32rem;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+  
+      .purple-shade {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: auto;
+        height: 70vw;
+        transform: translateY(-50%);
+        pointer-events: none;
+      }
+      .blue-shade {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: auto;
+        height: 70vw;
+        pointer-events: none;
+      }
+      .circles-shade {
+        top: 6%;
+        position: absolute;
+        margin-left: 220px;
+        width: 450px;
+        pointer-events: none;
+      }
+  
+      .firstCardContainer {
+        display: flex;
+        flex-direction: column;
+        margin-left: 240px;
+      }
+
+      .secondCardContainer {
+        display: flex;
+        flex-direction: column;
+        background-color: transparent;
+        width: 36.5rem;
+        margin-left: 125px;
+        align-items: center;
+
+        .profileContainers {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          width: 90%;
+        }
+
+        .historyContainer {
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+          margin-top: 12px;
+
+          .historyRectangles {
+            border-style: solid;
+            border-width: 1px;
+            border-color: $purple;
+            width: 2.25rem;
+            height: 3rem;
+          }
+        }
+
+      }
+
+      h1 {
+          font-size: 20px;
+          text-align: left;
+          margin-left: 10px;
+          padding-top: 10px;
+          padding-bottom: 8px;
+      }
+
+      h4 {
+          max-width: 400px;
+          text-justify: inter-word;
+          text-align: justify;
+          margin-left: 10px;
+          color: $white;
+      }
+    }
+  
+    .projectOfTheMonth-wrapper {
+      position: relative;
+      margin-top: 12rem;
+      margin-bottom: 10rem;
+      .purple-shade {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: auto;
+        height: 70vw;
+        transform: translateY(-50%);
+        pointer-events: none;
+      }
+      .blue-shade {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: auto;
+        height: 70vw;
+        pointer-events: none;
+      }
+      .circles-shade {
+        top: 40%;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 8%);
+        max-width: 40vw;
+        pointer-events: none;
+      }
+  
+      .firstCardContainer {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  
+    .topPerformingProjects-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      justify-content: center;
+      align-items: center;
+      grid-column-gap: 80px;
+      padding-top: 3.25rem;
+      margin: auto;
+      padding-left: 145px;
+      padding-right: 10px;
+      grid-row-gap: 60px;
+      margin-top: 20px;
+    }
+  }

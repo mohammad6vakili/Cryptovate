@@ -1,0 +1,344 @@
+.mv-signup-video-wrapper {
+  width: 100% !important;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mv-signup-video-wrapper > img:nth-child(1) {
+  position: absolute;
+  width: 60%;
+  bottom: -100px;
+}
+.mv-signup-video-wrapper > img:nth-child(2) {
+  position: absolute;
+  left: 0;
+  top: -230px;
+  height: 800px;
+  width: unset !important;
+}
+.mv-signup-video-wrapper > img:nth-child(3) {
+  position: absolute;
+  right: 0;
+  height: 700px;
+  bottom: -350px;
+  width: unset !important;
+}
+.mv-signup-video-wrapper video {
+  width: 550px !important;
+  border: 1px solid #c739ea;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 0px 35px rgba(199, 57, 234, 0.35));
+  border-radius: 20px;
+  position: unset !important;
+  height: 320px !important;
+  object-fit: cover;
+}
+.signup-form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+.signup-form div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.signup-form span {
+  color: black;
+}
+.signup-form input {
+  margin-top: 5px;
+  width: 320px !important;
+  border: 0.5px solid #c739ea;
+  color: black;
+  box-sizing: border-box;
+  height: 40px;
+  border-radius: 40px;
+  background-color: transparent !important;
+}
+.signup-form-dark span {
+  color: white !important;
+}
+.signup-form-dark input {
+  color: white !important;
+}
+.signup-form-auth {
+  width: 320px;
+  align-items: center !important;
+  justify-content: center;
+}
+.signup-form-auth > div {
+  width: 100%;
+  display: flex !important;
+  flex-direction: row !important;
+}
+.signup-form-auth input {
+  color: #c739ea !important;
+  width: 45% !important;
+}
+.signup-form-auth img {
+  width: 8px;
+  height: 12px;
+}
+.signup-form-auth > span {
+  width: 100% !important;
+  color: #c739ea !important;
+}
+.signup-form button>span{
+  color: white !important;
+}
+.signup-form button,
+.signup-form button:hover,
+.signup-form button:focus {
+  width: 130px !important;
+  height: 40px !important;
+  border: none !important;
+  background: linear-gradient(90deg, #4399f7 14.72%, #c739ea 85.19%);
+  border-radius: 40px;
+  color: white !important;
+}
+.signup-step-two-btns {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+.signup-step-two-btns button {
+  width: 100px;
+  height: 35px;
+  margin: 0 5px;
+  border-radius: 40px;
+  border: none;
+  position: relative;
+}
+.signup-step-two-btns button:nth-child(1) {
+  color: #c739ea !important;
+  background-color: transparent;
+  position: relative;
+  border-radius: 40px; /*1*/
+  border: 1px solid transparent; /*2*/
+  background: linear-gradient(90deg, #4399f7 28%, #c739ea 64.54%) border-box; /*3*/
+  -webkit-mask: /*4*/ linear-gradient(#fff 0 0) padding-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor; /*5'*/
+  mask-composite: exclude; /*5*/
+}
+.signup-step-two-btns button:nth-child(1)::before {
+  content: "";
+  position: absolute;
+  height: 1px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50px;
+  padding: 10px;
+  background: linear-gradient(90deg, #4399f7 28%, #c739ea 64.54%);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+.signup-step-two-btns button:nth-child(2) {
+  color: white;
+  border-radius: 40px !important;
+  background: linear-gradient(90deg, #4399f7 14.72%, #c739ea 85.19%);
+}
+.signup-create-profile {
+  width: 100%;
+  margin-top: 60px;
+  padding: 0 50px;
+  display: flex;
+  flex-direction: column;
+}
+.signup-create-profile > div:nth-child(1) {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.signup-create-profile > div:nth-child(1) span:nth-child(1) {
+  font-weight: 900;
+  font-size: 28px;
+  background: linear-gradient(90deg, #4399f7 5.64%, #c739ea 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.signup-create-profile > div:nth-child(1) button {
+  color: #c739ea !important;
+  background-color: transparent;
+  width: 100px;
+  position: relative;
+  border-radius: 40px; /*1*/
+  border: 1px solid transparent; /*2*/
+  background: linear-gradient(90deg, #4399f7 28%, #c739ea 64.54%) border-box; /*3*/
+  -webkit-mask: /*4*/ linear-gradient(#fff 0 0) padding-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor; /*5'*/
+  mask-composite: exclude; /*5*/
+}
+.signup-create-profile > div:nth-child(1) button::before {
+  content: "";
+  position: absolute;
+  height: 1px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50px;
+  padding: 10px;
+  background: linear-gradient(90deg, #4399f7 28%, #c739ea 64.54%);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+.signup-create-profile > div:nth-child(2) {
+  width: 100%;
+  display: flex;
+}
+.signup-create-profile > div:nth-child(2) > div {
+  width: 50%;
+  padding: 20px 0;
+}
+.signup-create-profile > div:nth-child(2) > div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signup-create-profile > div:nth-child(2) > div:nth-child(2) > div {
+  width: 70%;
+  height: 75vh;
+  border: 1px solid #c739ea;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.signup-create-profile > div:nth-child(2) > div:nth-child(2) > div > img {
+  width: 180px;
+  margin: unset !important;
+  height: 180px;
+}
+.signup-create-profile
+  > div:nth-child(2)
+  > div:nth-child(2)
+  > div
+  > div:nth-child(2) {
+  background: linear-gradient(90deg, #4399f7 5.64%, #c739ea 70%);
+  margin: 30px 0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-weight: 600;
+  font-size: 28px;
+}
+.signup-create-profile
+  > div:nth-child(2)
+  > div:nth-child(2)
+  > div
+  > div:nth-child(3) {
+  color: white;
+  font-size: 12px;
+  width: 80%;
+  text-align: justify;
+}
+.signup-create-profile > div:nth-child(2) > div:nth-child(1) > div {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 30px;
+  color: white;
+}
+.signup-create-profile > div:nth-child(2) > div:nth-child(1) > div>span {
+  color: white;
+}
+.signup-create-profile > div:nth-child(2) > div:nth-child(1) > div > div {
+  margin-top: 10px;
+  align-items: center;
+  display: flex;
+}
+.signup-create-profile > div:nth-child(2) > div:nth-child(1) > div > div input,
+.signup-create-profile > div:nth-child(2) > div:nth-child(1) > div > div textarea,
+.signup-create-profile > div:nth-child(2) > div:nth-child(1) > div > div div {
+  background-color: transparent;
+  border: 0.5px solid #c739ea;
+  border-radius: 40px;
+  height: 40px !important;
+  display: flex;
+  align-items: center !important;
+}
+.signup-create-profile > div:nth-child(2) > div:nth-child(1) > div > div textarea{
+  height: 20vh !important;
+  padding: 15px;
+  color: white;
+  border-radius: 20px;
+}
+.signup-create-profile > div:nth-child(2) > div:nth-child(1) > div > div input,
+.signup-create-profile > div:nth-child(2) > div:nth-child(1) > div > div textarea,
+.signup-create-profile > div:nth-child(2) > div:nth-child(1) > div > div > div {
+  width: 70%;
+  margin-right: 15px;
+}
+.signup-create-profile
+  > div:nth-child(2)
+  > div:nth-child(1)
+  > div
+  > div
+  > div
+  span {
+  color: white ;
+}
+.signup-create-profile
+  > div:nth-child(2)
+  > div:nth-child(1)
+  > div
+  > div
+  button {
+  background: linear-gradient(90deg, #4399f7 14.72%, #c739ea 85.19%);
+  border-radius: 40px;
+  color: white;
+  border: none;
+  height: 30px !important;
+  font-size: 12px;
+  padding: 0 15px !important;
+}
+.select-item-profile-signup {
+  border: none !important;
+  width: 190px;
+  position: absolute !important;
+  top: -20px;
+  right: 30%;
+}
+.select-item-profile-signup > div {
+  color: white;
+  font-size: 12px;
+  width: 100% !important;
+  border: none !important;
+}
+.select-item-profile-signup span {
+  color: white ;
+}
+.signup-profile-save-changes{
+  background: linear-gradient(90deg, #4399f7 14.72%, #c739ea 85.19%) !important;
+  border-radius: 40px !important;
+  color: white !important;
+  border: none !important;
+  height: 35px !important;
+}
+.text-light-signup div,
+.text-light-signup span,
+.text-light-signup{
+  color: black !important;
+}
+.text-dark-signup{
+  color: white !important;
+}

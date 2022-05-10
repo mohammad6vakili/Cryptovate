@@ -1,0 +1,36 @@
+@import "../../styles/variables.scss";
+.flex-box {
+    margin-top: 18px;
+    .box {
+      width: 70px;
+      height: 72px;
+      border-radius: 10px;
+      display: flex;
+      margin: 0 10px 13px;
+      background: linear-gradient(90deg, #4399F7 28%, #C739EA 64.54%);
+      padding: 2px;
+      p {
+        border-radius: 10px;
+        background-color: $black;
+        width: 68px;
+        height: 68px;
+        display: flex;
+        color: unset !important;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+    & > .paragraph2 {
+      margin: 0;
+      margin-top: 15px;
+    }
+
+    .title2 {
+      text-align: center;
+    }
+  }
+  .mv-seperate-timer{
+    font-size: 32px;
+    margin-top: 5px;
+  }

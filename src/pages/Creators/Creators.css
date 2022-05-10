@@ -1,0 +1,95 @@
+.mv-creators-body-title {
+  width: 100%;
+  margin-top: 60px;
+  font-size: 26px;
+  font-weight: 900;
+  text-align: center;
+}
+.mv-creators-body-search-bar {
+  width: 100%;
+  display: flex;
+  margin-top: 50px;
+  padding: 0 10rem;
+  justify-content: space-between;
+}
+.mv-creators-body-search-bar input {
+  width: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+  border-radius: 40px;
+  background-color: transparent;
+  padding: 5px 20px;
+  color: white;
+}
+.mv-creators-body-search-bar-light input{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    color: black;
+}
+.mv-creators-top-three {
+  width: 100%;
+  padding: 0 10rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 70px;
+  margin-top: 30px;
+}
+.mv-creators-top-three-item {
+  width: 27%;
+  background: #121212;
+  box-shadow: -10px 10px 20px rgba(199, 57, 234, 0.2);
+  border-radius: 20px;
+  min-height: 60vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  min-width: 300px !important;
+  padding:20px;
+}
+.mv-creators-top-three-item-light{
+    background-color: rgba(247, 247, 247, 0.808) !important;
+    color:black
+}
+.mv-creators-top-three-item>img:nth-child(1){
+    position:absolute;
+    left: -10%;
+    top: -45px;
+    width: 300px;
+    height: 300px;
+}
+.mv-creators-top-three-item>img:nth-child(2){
+    z-index: 9;
+    width: 80%;
+    margin-top:30px;
+    margin-bottom: 20px !important;
+}
+.mv-creators-top-three-item>div:nth-child(3){
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.mv-creators-top-three-item>div:nth-child(3)>div{
+    font-size: 11px;
+}
+.mv-creators-top-three-item>div:nth-child(4){
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+.mv-creators-top-three-item>div:nth-child(4)>span{
+    margin-bottom: 5px;
+    color: #C739EA;
+}
+.mv-creators-all-creators-title{
+    width: 100%;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+}

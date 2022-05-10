@@ -1,0 +1,273 @@
+.mv-profile-edit-profile-button {
+  position: absolute !important;
+  left: 50px !important;
+  width: 130px;
+  height: 40px !important;
+}
+.mv-profile-edit-profile-button-light > span {
+  background-color: white !important;
+}
+.mv-profile-banner {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 50px;
+}
+.mv-profile-banner img:nth-child(1){
+  box-shadow: 0px 0px 35px 0px #C739EA59;
+  border-radius: 20px;
+  margin: 40px 0;
+}
+.mv-profile-banner > div:nth-child(2) {
+  font-weight: 600;
+  font-size: 40px;
+  color: #ffffff;
+  position: absolute;
+}
+.mv-profile-banner > button:nth-child(3) {
+  position: absolute;
+  margin-top: 120px;
+  height: 30px;
+}
+.mv-profile-section-one {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 50px;
+}
+.mv-profile-section-one > div {
+  padding: 0 20px;
+}
+.mv-profile-section-one > div:nth-child(1) {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.mv-profile-section-one > div:nth-child(1) > img:nth-child(1) {
+  width: 300px;
+  height: 300px;
+  margin: unset !important;
+}
+.mv-profile-section-one > div:nth-child(1) > div:nth-child(2) {
+  font-weight: 600;
+  font-size: 26px;
+}
+.mv-profile-section-one > div:nth-child(1) > div:nth-child(3) {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.mv-profile-section-one
+  > div:nth-child(1)
+  > div:nth-child(3)
+  > div:nth-child(1) {
+  font-weight: 900;
+  font-size: 16px;
+}
+.mv-profile-section-one
+  > div:nth-child(1)
+  > div:nth-child(3)
+  > div:nth-child(2) {
+  color: white;
+  margin-top: 10px;
+  font-size: 13px;
+  text-align: justify;
+}
+.mv-profile-section-one-light
+  > div:nth-child(1)
+  > div:nth-child(3)
+  > div:nth-child(2) {
+  color: black;
+}
+.mv-profile-section-one > div:nth-child(1) > div:nth-child(4) {
+  width: 100%;
+  margin-top: 70px;
+}
+.mv-profile-section-one > div:nth-child(1) > div:nth-child(4) > a {
+  color: #c739ea;
+  text-decoration: underline;
+  margin-right: 20px;
+}
+.mv-profile-section-one > div:nth-child(2) {
+  width: 62%;
+  border: 0.5px solid #c739ea;
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 15px;
+}
+.mv-profile-section-one > div:nth-child(2) > div:nth-child(1) {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.mv-profile-section-one
+  > div:nth-child(2)
+  > div:nth-child(1)
+  > div:nth-child(1) {
+  font-weight: 900;
+  font-size: 22px;
+}
+.mv-profile-section-one
+  > div:nth-child(2)
+  > div:nth-child(1)
+  > button:nth-child(2) {
+  width: 100px;
+  height: 30px;
+}
+.mv-profile-section-one-light
+  > div:nth-child(2)
+  > div:nth-child(1)
+  > button:nth-child(2)>span {
+  background-color: white !important;
+}
+.mv-profile-section-one > div:nth-child(2) > div:nth-child(2) {
+  width: 100%;
+  height: 90%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  grid-gap: 15px;
+}
+.mv-profile-nft-item {
+  display: flex;
+  flex-direction: column;
+}
+.mv-profile-nft-item > div:nth-child(2) {
+  width: 100%;
+  height: 110px;
+  padding: 8px;
+  background: #121212;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.mv-profile-nft-item-light > div:nth-child(2){
+  background-color: #F1F1F1 !important;
+}
+.mv-profile-nft-item > div:nth-child(2) > div:nth-child(1) {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mv-profile-nft-item > div:nth-child(2) > div:nth-child(1) > div {
+  color: #c739ea;
+  font-weight: 700;
+  font-size: 12px;
+}
+.mv-profile-nft-big-item > div:nth-child(2) > div:nth-child(1) > div {
+  font-size: 16px;
+}
+.mv-profile-nft-item > div:nth-child(2) > div:nth-child(1) > img {
+  width: 9px;
+  height: 12px;
+  margin: unset !important;
+}
+.mv-profile-nft-item > div:nth-child(2) > div:nth-child(2) {
+  margin-top: 5px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.mv-profile-nft-item > div:nth-child(2) > div:nth-child(2) > div {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.mv-profile-nft-item
+  > div:nth-child(2)
+  > div:nth-child(2)
+  > div
+  > div:nth-child(1) {
+  color: white;
+  font-size: 9px;
+}
+.mv-profile-nft-item-light
+  > div:nth-child(2)
+  > div:nth-child(2)
+  > div
+  > div:nth-child(1) {
+  color: black !important;
+}
+.mv-profile-nft-big-item
+  > div:nth-child(2)
+  > div:nth-child(2)
+  > div
+  > div:nth-child(1) {
+  color: white;
+  font-size: 12px;
+}
+.mv-profile-nft-big-item
+  > div:nth-child(2)
+  > div:nth-child(2)
+  > div
+  > div:nth-child(2) {
+  font-size: 16px;
+}
+.mv-profile-nft-item > div:nth-child(2) > div:nth-child(2) img {
+  height: 100% !important;
+  width: 10px;
+  margin: 5px !important;
+}
+.mv-profile-section-two {
+  width: 100%;
+  padding: 0 50px;
+  margin-top: 50px;
+}
+.mv-profile-section-two > div:nth-child(1) {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.mv-profile-section-two > div > input {
+  background-color: transparent;
+  width: 25%;
+  min-width: 300px;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+  border-radius: 40px;
+}
+.mv-profile-section-two-light > div > input {
+  color: black;
+  border: 1px solid rgba(18, 18, 18, 0.2);
+  backdrop-filter: blur(20px);
+}
+.mv-profile-section-two > div:nth-child(2) {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-gap: 30px;
+}
+@media only screen and (min-width:1500px){
+  .mv-profile-section-two > div:nth-child(2) {
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-gap: 60px;
+  }
+  .mv-profile-section-one > div:nth-child(2) > div:nth-child(2) {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 35px;
+  }
+}
+@media only screen and (min-width:1930px){
+  .mv-profile-section-two > div:nth-child(2) {
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    grid-gap: 80px;
+  }
+  .mv-profile-section-one > div:nth-child(2) > div:nth-child(2) {
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    grid-gap: 55px;
+  }
+}

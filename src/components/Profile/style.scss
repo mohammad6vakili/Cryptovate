@@ -1,0 +1,19 @@
+@import "../../styles/global.scss";
+@import "../../styles/variables.scss";
+
+.Profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10.75rem;
+    h1 {
+        font-size: 20px;
+        text-align: left;
+        margin-left: 10px;
+        padding-top: 40px;
+        padding-bottom: 8px;
+    }
+    h5 {
+        color: $white
+    }
+}

@@ -1,0 +1,74 @@
+@import "../../styles/variables.scss";
+.select-container {
+  display: inline-block;
+  position: relative;
+  width: 184px;
+  border-radius: 10px;
+  z-index: 10;
+}
+
+.selected-text {
+  padding: 10px 20px;
+  width: 100%;
+  cursor: pointer;
+  color: $white;
+  position: relative;
+}
+
+.selected-text img {
+  position: absolute;
+  right: 10px;
+  width: 15px;
+  height: 8px;
+  bottom: 40%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.select-options {
+  position: absolute;
+  margin-top: 5px;
+  width: 100%;
+  background-color: rgba(39, 39, 39, 0.3);
+  backdrop-filter: blur(10px);
+  text-align: left;
+}
+
+.select-option {
+  list-style-type: none;
+  padding: 6px 20px;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.select-option:last-child {
+  border-bottom: none;
+}
+
+.select-option:hover {
+  background-color: #d9d9d9;
+  color: #353535;
+}
+
+.show-dropdown-options {
+  min-height: 50px;
+  opacity: 1;
+  visibility: visible;
+}
+
+.hide-dropdown-options {
+  min-height: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+#mv-select-light-content{
+  color: black !important;
+}

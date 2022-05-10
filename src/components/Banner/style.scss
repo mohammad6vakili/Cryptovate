@@ -1,0 +1,81 @@
+@import "../../styles/variables.scss";
+
+.banner {
+  height: calc(100vh - 92px);
+  width: 100%;
+  background-color: $dead-black;
+  background-image: url("../../assets/icons/new-logo.svg"),
+    url("../../assets/images/atom-shadow.png");
+  background-size: 55%, 70%;
+  background-position: 50% 30%, 40% 27%;
+  background-repeat: no-repeat;
+  display: flex;
+  position: relative;
+
+  &__content {
+    margin: auto;
+    img {
+      height: 40px;
+    }
+    p {
+      font-family: "Lato-Regular", sans-serif;
+      text-transform: uppercase;
+      margin-top: 75px;
+      line-height: 19px;
+      letter-spacing: 0.37em;
+      color: $white;
+    }
+  }
+
+  &__controls {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin: auto auto 30px;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    .verify-button > span {
+      color: #73e9f9 !important;
+    }
+
+    .verify-button-verify > span {
+      color: white !important;
+    }
+
+    .verify-button > span:hover {
+      color: white !important;
+    }
+
+    .play-button {
+      width: 80px;
+      height: 80px;
+      background: linear-gradient(90deg, #4399f7 3.27%, #39eaab 95.75%);
+      border-radius: 50px;
+      display: flex;
+      margin: 0 170px;
+      img {
+        margin: auto;
+        height: 32.4px;
+        padding-left: 3px;
+      }
+    }
+    .play-button img{
+      width: 80%;
+    }
+    .play-button img:hover{
+      box-shadow: unset !important;
+      filter: unset !important;
+      opacity: unset !important;
+      background: unset !important;
+    }
+  }
+}
+.mv-landing-sound-icon{
+  position:absolute;
+  width: 26px;
+  height: 26px;
+  right: 20%;
+  top: 15%;
+}

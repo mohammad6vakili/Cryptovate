@@ -1,0 +1,58 @@
+@import "../../styles/variables.scss";
+
+.heading {
+    font-size: 34px;
+    line-height: 41px;
+    background: linear-gradient(90deg, #4399F7 32.64%, #C739EA 59.07%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Lato-Black", sans-serif;
+
+    &.heading2{
+        font-size: 32px;
+        font-family: "Lato-Regular", sans-serif;
+    }
+}
+
+.label {
+    font-size: 14px;
+    font-family: "Lato-Bold", sans-serif;
+    color: $white-default;
+}
+
+.title {
+    color: $sky;
+    font-family: "Lato-Regular", sans-serif;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 41px;
+}
+
+.title2 {
+    font-size: 14px;
+    font-family: "Lato-Regular", sans-serif;
+    color: $white;
+    list-style: 14.4px;
+}
+
+.paragraph {
+    color: $white;
+}
+
+.paragraph2 {
+    font-family: "Lato-Light", sans-serif;
+    font-size: 40px;
+    line-height: 48px;
+    color: $purple;
+    line-height: 0.85;
+
+    sub {
+        font-family: "Lato-Bold", sans-serif;
+        font-size: 20px;
+        line-height: 34px;
+        margin: 0 10px;
+        display: inline-block;
+        line-height: 1;
+    }
+}

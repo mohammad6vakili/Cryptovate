@@ -1,0 +1,28 @@
+.pill {
+    background: linear-gradient(270deg, #C739EA 2.96%, #4399F7 97.41%);
+    box-shadow: -4px 4px 10px rgba(199, 57, 234, 0.5);
+    border-radius: 100px;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    width: max-content;
+    cursor: pointer;
+
+    &__figure {
+        width: 23px;
+        height: 23px;
+        border-radius: 50px;   
+        overflow: hidden;
+    }
+
+    &__label {
+        padding-left: 7px;
+        padding-right: 9px;
+    }
+
+    &--secondary {
+        background: #888682 !important;
+        box-shadow: none;
+    }
+
+}

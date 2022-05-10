@@ -1,0 +1,53 @@
+@import '../../styles/variables.scss';
+@import '../../styles/variables.scss';
+
+.threeColumnTextCardWrapper {
+  background-color: $alpha;
+  width: 330px;
+  height: 121px;
+  margin-top: 24px;
+  display: block;
+  border-radius: 20px;
+}
+
+.twoColumnTextCardWrapper {
+  background-color: $alpha;
+  width: 18.12rem;
+  height: 121px;
+  margin-top: 24px;
+  display: block;
+  border-radius: 20px;
+}
+
+.Row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 11px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.discountIcon {
+  width: 28px;
+  height: 19px;
+  margin: 0;
+}
+
+.secondRowText {
+  line-height: 200%;
+  color: $white;
+}
+
+.purple {
+  color: $purple;
+}
+
+.blue {
+  color: $blue;
+}
+
+.seperatorIcon {
+  width: 10.75px;
+  height: 51.5px;
+}
